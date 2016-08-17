@@ -14,6 +14,7 @@ body {
 
 #logo-img {
   background: url('../images/face.jpg') no-repeat;
+  background-size: 100%;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -117,6 +118,7 @@ body {
 #hobbies-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
+  
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
@@ -127,7 +129,8 @@ body {
 }
 
 #hobbies-tile {
-  background: url('../images/hobbies.jpg') no-repeat;
+  background: url('../images/hobbies/hobbies.jpg') no-repeat;
+  background-size: 100%;
   background-position: center;
 }
 #specials-tile {
